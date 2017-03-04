@@ -1,0 +1,19 @@
+{
+    "window.zoomLevel": -0.3,
+    "files.autoSave": "onWindowChange",
+    "editor.tabSize": 2,
+    "terminal.external.osxExec": "iTerm2.app",
+    "gitlens.blame.annotation.activeLine": "off",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/dist": true,
+        "**/tmp": true
+    },
+    "vsicons.projectDetection.disableDetect": true,
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "seti"
+  }
