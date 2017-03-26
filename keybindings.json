@@ -32,6 +32,23 @@
     "when": "editorHasSignatureHelpProvider && editorTextFocus"
   },
 
+  // explorer
+  {
+    "key": "cmd+-",
+    "command": "workbench.files.action.collapseExplorerFolders",
+    "when": "explorerViewletFocus && explorerViewletVisible"
+  },
+  {
+    "key": "cmd+down",
+    "command": "vscode.open",
+    "when": "explorerViewletFocus && explorerViewletVisible"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "filesExplorer.findInFolder",
+    "when": "explorerViewletFocus && explorerViewletVisible"
+  },
+  
   // code modification
   {
     "key": "cmd+d",
@@ -53,7 +70,15 @@
     "command": "editor.action.format",
     "when": "editorTextFocus"
   },
-
+  {
+    "key": "shift+cmd+e",
+    "command": "workbench.action.showEmmetCommands",
+    "when": "editorTextFocus"
+  },{
+    "key": "alt+f6",
+    "command": "editor.action.findReferences",
+    "when": "editorTextFocus"
+  },
 
   // Selection
   {
@@ -85,14 +110,6 @@
     "key": "shift+cmd+r",
     "command": "workbench.action.replaceInFiles"
   },
-
-  // Previews
-  {
-    "key": "cmd+y",
-    "command": "editor.action.previewDeclaration",
-    "when": "editorTextFocus"
-  },
-
 
   // Navigation
   {
