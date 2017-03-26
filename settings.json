@@ -15,5 +15,10 @@
     "vsicons.projectDetection.disableDetect": true,
     "editor.renderWhitespace": "all",
     "workbench.colorTheme": "Material Theme",
-    "workbench.iconTheme": "seti"
+    "workbench.iconTheme": "seti",
+    "explorer.openEditors.dynamicHeight": false,
+    "editor.formatOnPaste": true,
+    "gitlens.blame.annotation.sha": false,
+    "gitlens.blame.annotation.message": true,
+    "terminal.integrated.shellArgs.osx": ["-l"]
   }
