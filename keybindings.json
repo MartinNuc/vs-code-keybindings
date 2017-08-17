@@ -39,11 +39,6 @@
     "when": "explorerViewletFocus && explorerViewletVisible"
   },
   {
-    "key": "cmd+down",
-    "command": "vscode.open",
-    "when": "explorerViewletFocus && explorerViewletVisible"
-  },
-  {
     "key": "shift+cmd+f",
     "command": "filesExplorer.findInFolder",
     "when": "explorerViewletFocus && explorerViewletVisible"
@@ -221,5 +216,13 @@
   {
     "key": "ctrl+`",
     "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.quickSwitchWindow"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.files.action.showActiveFileInExplorer"
   }
 ]
