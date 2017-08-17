@@ -1,10 +1,9 @@
 {
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "editor.fontSize": 14,
     "files.autoSave": "onWindowChange",
     "editor.tabSize": 2,
-    "terminal.external.osxExec": "iTerm2.app",
-    "gitlens.blame.annotation.activeLine": "off",
+    "terminal.external.osxExec": "iTerm.app",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -20,24 +19,23 @@
         "**/bower_components": true,
         "**/dist": true,
         "**/tmp": true,
-        "**/.tmp": true,
-    },    
+        "**/.tmp": true
+    },
     "vsicons.projectDetection.disableDetect": true,
+    "vsicons.dontShowNewVersionMessage": true,
     "editor.renderWhitespace": "all",
     "workbench.colorTheme": "Default Light+",
     "workbench.iconTheme": "seti",
     "explorer.openEditors.dynamicHeight": false,
     "editor.formatOnPaste": true,
-    "gitlens.blame.annotation.sha": false,
-    "gitlens.blame.annotation.message": true,
-    "terminal.integrated.shellArgs.osx": [
-        "-l"
-    ],
-    "spell.StopAsking": true,
     "window.nativeTabs": true,
     "html.suggest.ionic": false,
     "php.suggest.basic": false,
     "php.validate.enable": false,
     "extensions.autoUpdate": true,
-    "vsicons.dontShowNewVersionMessage": true
+    "editor.codeLens": true,
+    "editor.minimap.enabled": false,
+    "gitlens.blame.line.enabled": false,
+    "editor.autoIndent": true,
+    "explorer.autoReveal": false
 }
